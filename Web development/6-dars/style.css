@@ -1,0 +1,35 @@
+div p {
+  color: blue;
+}
+
+ul > li {
+  color: red;
+}
+
+h1 + p {
+  color: blue;
+}
+
+#header2 {
+  color: blue;
+}
+
+.header1 {
+  color: green;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#section-title {
+  color: green;
+}
+
+.btn {
+  background-color: red;
+}
+
+button.btn {
+  background-color: green;
+}

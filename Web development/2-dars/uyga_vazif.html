@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <table>
+    <thead>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+      <th>Header 4</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="5">Row 1</td>
+        <td colspan="2">Row 2</td>
+        <td rowspan="2">Row 3</td>
+      </tr>
+      <tr>
+        <td colspan="2">Row 1</td>        
+      </tr>
+      <tr>
+        <td rowspan="3">Row 1</td>
+        <td>Row 2</td>
+        <td rowspan="3">Row 3</td>
+        
+      </tr>
+      <tr>
+        <td rowspan="2">Row 1</td>
+        
+      </tr>
+      <tr>
+        
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2" style="width: 30px;">ID</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Grades</th>
+        <th rowspan="2">Average</th>
+    </tr>
+    <tr>
+        <th>Subject</th>
+        <th>Score</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">1</td>
+        <td rowspan="3">John Doe</td>
+        <td>Math</td>
+        <td>A (4)</td>
+        <td rowspan="9"></td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>B (3)</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>A (4)</td>
+        
+      </tr>
+      <tr>
+        <td rowspan="3">2</td>
+        <td rowspan="3">Jane Smith</td>
+        <td>Math</td>
+        <td>B (3)</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>A (4)</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>A (4)</td>
+      </tr>
+      <tr>
+        <td rowspan="3">3</td>
+        <td rowspan="3">Emily Johnson</td>
+        <td>Math</td>
+        <td>C (2)</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>B (3)</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>B (3)</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td colspan="2">Average:</td>
+        <td>B3</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
